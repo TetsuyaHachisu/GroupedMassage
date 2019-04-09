@@ -12,6 +12,7 @@
 		CE149F3E224FA0D00028EABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE149F3C224FA0D00028EABA /* Main.storyboard */; };
 		CE149F40224FA0D10028EABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE149F3F224FA0D10028EABA /* Assets.xcassets */; };
 		CE149F43224FA0D10028EABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE149F41224FA0D10028EABA /* LaunchScreen.storyboard */; };
+		CE149F4B224FA76D0028EABA /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE149F4A224FA76D0028EABA /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE149F3F224FA0D10028EABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE149F42224FA0D10028EABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE149F44224FA0D10028EABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE149F4A224FA76D0028EABA /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CE149F3F224FA0D10028EABA /* Assets.xcassets */,
 				CE149F41224FA0D10028EABA /* LaunchScreen.storyboard */,
 				CE149F44224FA0D10028EABA /* Info.plist */,
+				CE149F4A224FA76D0028EABA /* ChatMessageCell.swift */,
 			);
 			path = GroupedMassage;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE149F4B224FA76D0028EABA /* ChatMessageCell.swift in Sources */,
 				CE149F3B224FA0D00028EABA /* ViewController.swift in Sources */,
 				CE149F39224FA0D00028EABA /* AppDelegate.swift in Sources */,
 			);
